@@ -20,9 +20,12 @@ run roscore :
 >roscore
 
    [RUN PROJECT]
-(using publisher & subscriber)
+   
+using publisher & subscriber
+
 publisher using video :
 >rosrun try_camera vid_publisher /home/user/oldEdit.mp4 
+
 subscriber :
 >rosrun try_opencv try_all 
    
